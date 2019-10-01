@@ -1,12 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-6977276182732206439
+--- !u!43 &-8988348017392138228
 Mesh:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TomatoBoy_2
+  m_Name: TomatoBoy_4
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24,10 +24,28 @@ Mesh:
     shapes: []
     channels: []
     fullWeights: []
-  m_BindPose: []
+  m_BindPose:
+  - e00: -0.057845514
+    e01: -0.9983259
+    e02: 0
+    e03: 0.40511283
+    e10: 0.9983259
+    e11: -0.057845514
+    e12: 0
+    e13: 0.010068214
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
+  m_BonesAABB:
+  - m_Min: {x: -0.1375188, y: -0.5280102, z: 0}
+    m_Max: {x: 0.9546859, y: 0.56839293, z: 0}
   m_VariableBoneCountWeights:
     m_Data: 
   m_MeshCompression: 0
@@ -35,7 +53,7 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 020001000000000001000300030001000400010005000400040005000600070006000500
+  m_IndexBuffer: 070006000500040005000600010005000400030001000400000001000300020001000000
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 8
@@ -97,7 +115,7 @@ Mesh:
       format: 10
       dimension: 4
     m_DataSize: 640
-    _typelessdata: 14ae073f6666663e000000000000000000000000000080bf0000803f13b192b500000000000080bf6666e63e666606bf000000000000000000000000000080bf0000803f494015b300000000000080bf14ae073fae4701bf000000000000000000000000000080bf0000803f0000000000000000000080bf0ad7a33e6666063f000000000000000000000000000080bf0000803f6733aeb300000000000080bf52b89ebe6666063f000000000000000000000000000080bf0000803fd32ea23300000000000080bfae47e1be666606bf000000000000000000000000000080bf0000803f28a41f3300000000000080bf0fae07bf52b81e3e000000000000000000000000000080bf0000803f7905b83500000000000080bf0fae07bf7bc2b5be000000000000000000000000000080bf0000803f9e684fb500000000000080bff9c5023fb91e353f1111013fb91e253ff9c5023ff38b253f3096fc3e1f853b3fe8b4e13e1f853b3ff628dc3eb91e253fed51d83e6ea0333fed51d83e27bf283f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    _typelessdata: 14ae073f6666663e000000000000000000000000000080bf0000803f13b192b500000000000080bf6666e63e666606bf000000000000000000000000000080bf0000803f494015b300000000000080bf14ae073fae4701bf000000000000000000000000000080bf0000803f0000000000000000000080bf0ad7a33e6666063f000000000000000000000000000080bf0000803f6733aeb300000000000080bf52b89ebe6666063f000000000000000000000000000080bf0000803fd32ea23300000000000080bfae47e1be666606bf000000000000000000000000000080bf0000803f28a41f3300000000000080bf0fae07bf52b81e3e000000000000000000000000000080bf0000803f7905b83500000000000080bf0fae07bf7bc2b5be000000000000000000000000000080bf0000803f9e684fb500000000000080bff9c5023fb91e353f1111013fb91e253ff9c5023ff38b253f3096fc3e1f853b3fe8b4e13e1f853b3ff628dc3eb91e253fed51d83e6ea0333fed51d83e27bf283f0000803f000000000000000000000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000803f00000000000000000000000000000000000000000000000000000000
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -163,23 +181,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c10c0be6d28fe4d539c4a39822fe301c, type: 3}
-  m_Name: TomatoBoy_2
-  m_EditorClassIdentifier: 
-  m_ApiVersion: 4
-  m_Sprite: {fileID: 0}
-  m_SharedMesh: {fileID: 0}
-  m_SharedMaterials: []
---- !u!114 &7777468474479984779
+--- !u!114 &-3983443771793550388
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,7 +191,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e715ea371f114f4a8d2584ad476634d, type: 3}
-  m_Name: TomatoBoy_2_Data
+  m_Name: TomatoBoy_4_Data
   m_EditorClassIdentifier: 
   m_PivotPoint: {x: 560, y: 826.5}
   m_Vertices:
@@ -201,7 +203,71 @@ MonoBehaviour:
   - {x: 516, y: 774}
   - {x: 507.00003, y: 842}
   - {x: 507.00003, y: 791.00006}
-  m_BoneWeights: []
+  m_BoneWeights:
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 0
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 0
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 0
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 0
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 0
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 0
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 0
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 0
+    boneIndex2: 0
+    boneIndex3: 0
   m_Edges:
   - index1: 7
     index2: 6
@@ -221,5 +287,44 @@ MonoBehaviour:
     index2: 1
   m_Holes: []
   m_Indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
-  m_BindPoses: []
+  m_BindPoses:
+  - bindPose:
+      e00: -0.057845514
+      e01: -0.9983259
+      e02: 0
+      e03: 0.40511283
+      e10: 0.9983259
+      e11: -0.057845514
+      e12: 0
+      e13: 0.010068214
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    boneLength: 1
+    path: LHand/Fist
+    name: Fist
+    color: {r: 1, g: 0, b: 0, a: 1}
+    zOrder: 0
   m_Blendshapes: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10c0be6d28fe4d539c4a39822fe301c, type: 3}
+  m_Name: TomatoBoy_4
+  m_EditorClassIdentifier: 
+  m_ApiVersion: 4
+  m_Sprite: {fileID: -6727393532831700818, guid: fa5ddab9b520d49389f8cb534b909a48,
+    type: 3}
+  m_SharedMesh: {fileID: -8988348017392138228}
+  m_SharedMaterials: []
