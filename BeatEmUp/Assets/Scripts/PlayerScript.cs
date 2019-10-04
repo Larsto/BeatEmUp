@@ -82,14 +82,13 @@ public class PlayerScript : MonoBehaviour
 
         if (HitPoints > 0)
         {
-        //    animator.SetTrigger("GotHit");
+            animator.SetTrigger("GotHit");
             Debug.Log("Hitpoints " + HitPoints);
         }
         if (HitPoints <= 0)
         {
-         //   animator.SetTrigger("Death");
+            animator.SetTrigger("Death");
             isAlive = false;
-            Destroy(gameObject, 5);
         }
     }
 

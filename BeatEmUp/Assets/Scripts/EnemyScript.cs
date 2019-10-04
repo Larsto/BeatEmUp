@@ -45,7 +45,6 @@ public class EnemyScript : MonoBehaviour
     private void Move()
     {
 
-
         if (Vector2.Distance(transform.position, target.position) > MinDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, Speed * Time.deltaTime);
